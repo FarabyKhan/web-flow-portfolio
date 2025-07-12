@@ -166,7 +166,7 @@ nav ul li{
   flex-wrap: wrap;
   border-radius: 16px solid grey;
   padding: 60px;
-  box-shadow: 
+  
  
 }
 .card{
@@ -174,6 +174,7 @@ nav ul li{
    border-radius: 14px;
      background-color: #7a78e63f;
   border-radius: 12px;
+  box-shadow: 10px 10px 10px rgb(171, 177, 179)
 }
 .card h3{
   font-size: 24px;
@@ -203,12 +204,12 @@ nav ul li{
 .date{
    font-size: 16px ;
   font-weight: 400;
-  color:#B3B3B3;
+  color:#757575;
   margin-top: 2px;
 }
 /* feedback section */
 .feedback-section{
-  margin:92px 200px 14px;
+  margin:92px 200px 0;
   display: flex;
   gap:100px;
   
@@ -219,7 +220,7 @@ nav ul li{
   padding: 100px 180px 30px ; 
 }
 .feedback-form{
-   padding: 71px 0 643px; 
+   padding: 71px 0 0; 
 }
 .feedback-section textarea {
   height: 150px; 
@@ -227,6 +228,8 @@ nav ul li{
 }
 
 .feedback-section input[type="text"] ,.feedback-section input[type="email"] ,.feedback-section textarea {
+  font-size: 16px;
+  font-weight: 400;
   height: 50px;
   border-radius: 5px;
   background-color: white;
@@ -238,7 +241,7 @@ nav ul li{
 .sub-button {
   height: 70px;
   border-radius: 5px;
-  background-color: white;
+  color: white;
   width:113%;
   padding: 10px 20px;
   margin-bottom: 5px;
@@ -249,28 +252,25 @@ nav ul li{
     background-color: #2980b9;
   transform: scale(1.05);
 }
-.footer {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #ffffff;
-  border-top: 1px solid #f0f0f5; /* light top border */
-}
-
-.logo {
-  font-size: 48px;
-  color: #4e47ff;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
 /* footer section */
-.footer-text {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 20px;
-  line-height: 1.6;
+footer{
+ text-align: center;
+ padding: 40px 20px;
+ background-color: #ffffff;
+  padding: 104px 455px;
 }
-
-.footer-nav {
+footer h1{
+  font-size: 100px;
+  font-weight: bold;
+  color:#4E47FF;
+}
+footer p{
+  font-size: 16px;
+  font-weight: 400;
+   color:#757575;
+   line-height: 1.6;
+}
+ footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -278,15 +278,15 @@ nav ul li{
   justify-content: center;
   gap: 40px;
 }
-
-.footer-nav a {
-  text-decoration: none;
-  color: #888;
-  font-size: 14px;
-  transition: color 0.3s ease;
+  
+footer ul li{
+  font-size: 16px;
+  font-weight: 400;
+   color: #757575;
+}
+footer ul li:hover{
+   color: #2980b9;
+  transform: scale(1.05);
 }
 
-.footer-nav a:hover {
-  color: #4e47ff;
-}
-
+ 
