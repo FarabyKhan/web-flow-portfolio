@@ -113,6 +113,7 @@ nav ul li{
   border-radius: ;
   padding: 40px 100px;
   border-radius: 30px;
+  
 }
 .user h2{
   font-size: 38px;
@@ -211,7 +212,9 @@ nav ul li{
 .focus{
  text-align: center;
  gap: 20px;
- 
+ padding: 71px 150px;
+  margin: 137px 150px ;
+  background-color: white;
 }
 .focus h1{
   font-size: 50px;
