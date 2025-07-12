@@ -216,26 +216,30 @@ nav ul li{
 .feedback-title{
   font-size: 90px;
   font-weight: bold;
-  padding: 100px 200px 700px; 
+  padding: 100px 180px 30px ; 
 }
 .feedback-form{
    padding: 71px 0 643px; 
 }
-.feedback-section input[type="text"] ,.feedback-section input[type="email"] ,.feedback-section textarea{
+.feedback-section textarea {
+  height: 150px; 
+  
+}
+
+.feedback-section input[type="text"] ,.feedback-section input[type="email"] ,.feedback-section textarea {
   height: 50px;
   border-radius: 5px;
   background-color: white;
   width:100%;
   padding: 10px 20px;
   margin-bottom: 5px;
-  border: none;
-
+  border: none; 
 }
 .sub-button {
   height: 70px;
   border-radius: 5px;
   background-color: white;
-  width:108%;
+  width:113%;
   padding: 10px 20px;
   margin-bottom: 5px;
      border: none;
